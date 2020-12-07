@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
@@ -23,6 +23,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("Hastlayer (hastlayer.com)")]
 [assembly: AssemblyCopyright("Copyright © 2015-2017")]
 [assembly: AssemblyTrademark("")]
+[assembly: AssemblyVersion("1.1.0.0")]
 
 #if DEBUG
 [assembly: AssemblyConfiguration("Debug")]
