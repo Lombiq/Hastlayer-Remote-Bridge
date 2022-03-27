@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 
-namespace Hast.Remote.Bridge.Models
+namespace Hast.Remote.Bridge.Models;
+
+public class TransformationRequest
 {
-    public class TransformationRequest
-    {
-        public HardwareGenerationConfiguration Configuration { get; set; }
-        public IEnumerable<AssemblyContainer> Assemblies { get; set; }
-    }
+    public HardwareGenerationConfiguration Configuration { get; set; }
+    public IEnumerable<AssemblyContainer> Assemblies { get; set; }
 }
