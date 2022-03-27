@@ -1,4 +1,5 @@
 #nullable enable
+
 using System.Collections.Generic;
 
 namespace Hast.Remote.Bridge.Models;
