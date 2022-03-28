@@ -1,8 +1,7 @@
-﻿namespace Hast.Remote.Bridge.Models
+﻿namespace Hast.Remote.Bridge.Models;
+
+public class TransformationWarning
 {
-    public class TransformationWarning
-    {
-        public string Code { get; set; }
-        public string Message { get; set; }
-    }
+    public string Code { get; set; }
+    public string Message { get; set; }
 }

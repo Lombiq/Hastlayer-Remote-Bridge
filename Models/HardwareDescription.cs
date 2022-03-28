@@ -1,8 +1,7 @@
-﻿namespace Hast.Remote.Bridge.Models
+﻿namespace Hast.Remote.Bridge.Models;
+
+public class HardwareDescription
 {
-    public class HardwareDescription
-    {
-        public string Language { get; set; }
-        public string SerializedHardwareDescription { get; set; }
-    }
+    public string Language { get; set; }
+    public string SerializedHardwareDescription { get; set; }
 }

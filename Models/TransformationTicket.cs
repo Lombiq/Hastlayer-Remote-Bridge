@@ -1,7 +1,6 @@
-﻿namespace Hast.Remote.Bridge.Models
+﻿namespace Hast.Remote.Bridge.Models;
+
+public class TransformationTicket
 {
-    public class TransformationTicket
-    {
-        public string Token { get; set; }
-    }
+    public string Token { get; set; }
 }
